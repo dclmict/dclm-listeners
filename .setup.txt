@@ -1,4 +1,4 @@
-# WEBCAST.DCLM.ORG
+# COUNTER.DCLM.ORG
 project:    dclm-counter
 repo:       https://github.com/dclmict/dclm-counter
 url:        https://counter.dclm.org
@@ -13,6 +13,8 @@ git push --set-upstream origin main
 git push
 
 
--- deploy to k8s cluster
-url:  http://webcast.k8s/
+-- deploy to local k8s cluster
+url:  http://counter.k8s/
 
+
+-- deploy to eks cluster
