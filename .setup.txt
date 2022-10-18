@@ -1,0 +1,18 @@
+# WEBCAST.DCLM.ORG
+project:    dclm-counter
+repo:       https://github.com/dclmict/dclm-counter
+url:        https://counter.dclm.org
+
+
+-- setup repo
+cd ~/dev/code/dclm/dclm-counter
+git init
+git add . && git commit -am "first commit"
+gh repo create dclmict/dclm-counter --public --source=. --remote=origin
+git push --set-upstream origin main
+git push
+
+
+-- deploy to k8s cluster
+url:  http://webcast.k8s/
+
