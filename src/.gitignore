@@ -1,9 +1,9 @@
 # https://git-scm.com/docs/gitignore
 # files
-dclm-*
-.cache*
-**/*.env*
+.env
+bun.lockb
 **/.DS_Store*
+**/docker-compose.yml
 
 # folders
-_
+node_modules
